@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import Vercel from '../../assets/powered-by-vercel.svg';
 import { useFilters } from '../../context/filtersContext/FiltersContext';
 import { report } from '../../ga';

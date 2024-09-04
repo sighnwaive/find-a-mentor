@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import { desktop } from '../../styles/shared/devices';
 import { StyledTextarea } from '../../components/Textarea/Textarea';
 

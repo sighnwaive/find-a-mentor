@@ -1,7 +1,7 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 

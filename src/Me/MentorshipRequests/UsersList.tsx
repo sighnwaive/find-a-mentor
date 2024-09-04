@@ -4,7 +4,7 @@ import { Status } from '../../helpers/mentorship';
 import { formatTimeAgo } from '../../helpers/time';
 import { RichList, RichItem } from '../components/RichList';
 import { Loader } from '../../components/Loader';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import { STATUS } from '../../helpers/mentorship';
 import UserWasRemovedIcon from '../../assets/me/icon-user-remove.svg';
 import { MentorshipRequest } from '../../types/models';

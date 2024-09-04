@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import { toast, ToastContainer } from 'react-toastify';
 
 import Header from '../../Header/Header';

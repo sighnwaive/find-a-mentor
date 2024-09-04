@@ -1,5 +1,5 @@
 import React, { TextareaHTMLAttributes, useContext } from 'react';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import { formFieldContext } from '../FormField/formContext';
 
 export const StyledTextarea = styled.textarea<{ invalid?: boolean }>`

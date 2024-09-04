@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import classNames from 'classnames';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 import Link from '../../components/Link/Link';
 import { mobile, desktop } from '../styles/shared/devices';

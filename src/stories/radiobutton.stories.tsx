@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import 'styled-components/macro';
+import 'styled-components';
 import RadioButton, { RadioButtonGroup } from '../Me/components/RadioButton';
 import { RadioButtonGroupProps } from '../Me/components/RadioButton/RadioButtonGroup';
 import { StoriesContainer } from './StoriesContainer';

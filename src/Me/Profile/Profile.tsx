@@ -1,7 +1,7 @@
 import ISO6391 from 'iso-639-1';
 import { FC, useState } from 'react';
 import { toast } from 'react-toastify';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import countries from 'svg-country-flags/countries.json';
 import { useApi } from '../../context/apiContext/ApiContext';
 import { useModal } from '../../context/modalContext/ModalContext';

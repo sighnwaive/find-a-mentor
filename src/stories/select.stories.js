@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import 'styled-components/macro';
+import 'styled-components';
 import Select from '../Me/components/Select';
 import FormField from '../Me/components/FormField';
 
