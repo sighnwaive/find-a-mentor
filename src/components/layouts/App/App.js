@@ -15,7 +15,7 @@ import { useMentors } from '../../../context/mentorsContext/MentorsContext';
 const App = (props) => {
   const { children } = props;
   const [filters] = useFilters();
-  const { tag, country, name, language, showFilters } = filters;
+  const { tag, country, name, language, showfilters } = filters;
   const [modal, setModal] = useState({
     title: null,
     content: null,
@@ -60,7 +60,7 @@ const App = (props) => {
         <Header />
         <Body>
           <Sidebar mentors={mentors} handleModal={handleModal} />
-          <Main showFilters={showFilters}>{children}</Main>
+          <Main showfilters={showfilters}>{children}</Main>
         </Body>
       </Layout>
     </div>
@@ -102,7 +102,7 @@ const Main = styled.section`
     transition: transform 0.3s ease;
 
     ${(props) =>
-      props.showFilters &&
+      props.showfilters &&
       `
         transform: translateY(300px);
         margin-bottom: 50px;

@@ -31,10 +31,7 @@ const Link = (props: LinkProps) => {
 
   return (
     <NextLink {...rest}>
-      {
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        hasA ? children : <a className={className}>{children}</a>
-      }
+      {children}
     </NextLink>
   );
 };

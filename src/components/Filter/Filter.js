@@ -11,7 +11,7 @@ export default function Filter(props) {
   const [filters, dispatch] = useFilters();
   const { tag, country, language, name } = filters;
   const { onToggleSwitch, mentors, showFavorite } = props;
-  const { showFilters } = filters;
+  const { showfilters } = filters;
   const { tags, countries, names, languages } = generateLists(mentors);
   const { setFilterParams } = useFilterParams();
 
@@ -27,8 +27,8 @@ export default function Filter(props) {
   const onLanguageSelect = onFilterChange('language');
 
   const onToggleShowFilters = useCallback(() => {
-    dispatch({ type: 'showFilters', payload: !filters.showFilters });
-  }, [filters.showFilters, dispatch]);
+    dispatch({ type: 'showfilters', payload: !filters.showfilters });
+  }, [filters.showfilters, dispatch]);
 
   const countryLabel = useCallback(() => {
     const countryObject = countries.find(
@@ -56,12 +56,12 @@ export default function Filter(props) {
           <i
             className={classNames([
               'fa fa-angle-down',
-              { 'show-filters': showFilters },
+              { 'show-filters': showfilters },
             ])}
           />
         </button>
       </h3>
-      <div className="inputs" aria-expanded={showFilters}>
+      <div className="inputs" aria-expanded={showfilters}>
         <Input id="technology" label="Technology" key="technology">
           <AutoComplete
             value={tag}
